@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  marging: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: #302f2f;
+}
+
+body {
+  padding-: 0 10px;
+  min-height: 100vh;
+  min-width: 320px;
+  background-color: #e5e5e5;
+}
+
+.input-type {
+  min-width: 305px;
+}
+
+@media screen and (min-width: 378px) {
+  .index-form {
+    gap: 0;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .box-type-hablity {
+    width: 180px;
+  }
+}
+@media screen and (min-width: 560px) {
+  .box-type-hablity {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .pokedex-button-submit {
+    width: 140px;
+  }
+}
